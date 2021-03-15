@@ -6,7 +6,7 @@ NOTE : Printf Function behave differently for %% , and %p according to the OS yo
 
 -Several Level of stress testing for your function.
 
--Logs of the error, with the number of the test you've failed.
+-Logs for your errors, with the number of the test you've failed.
 
 -Valgrind Log for each test without interrupting/interfering with the test even if you have memory leaks.
 
@@ -26,18 +26,23 @@ How to run the test :
 Differents test :
 ---------------------
 EASY : Basically test out your ft_printf function with REALLY BASICS tests.
+
 ./easy.sh
 
 MEDIUM : Advanced test for your function, making use of INT_MAX, INT_MIN, Flags etc...
+
 ./medium.sh
 
 HARD : The Last Test, using STRONG Test made to push your function to its limit
+
 not done yet
 
 BONUS : Testing Bonus function with lots of differents test, ranging from easy to hard but with the bonus stuff !
+
 not done yet
 
 ALL : Hard and Bonus at the same time.
+
 not done yet
 
 This test is still in development and if you wish to contribute, any help is welcomed.
