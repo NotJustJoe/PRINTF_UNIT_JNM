@@ -6,7 +6,7 @@
 /*   By: trofidal <trofidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 11:29:27 by trofidal          #+#    #+#             */
-/*   Updated: 2021/03/15 18:43:43 by trofidal         ###   ########.fr       */
+/*   Updated: 2021/03/17 11:05:51 by trofidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -145,6 +145,17 @@ int main()
 	function("a%35c, %c:O\n", chard3, chard4);
 	function("b%23c, %30cD:\n", chard4, chard5);
 	function("a%31c, %*c:>\n", chard5, 20, chard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
  _   __      
 (_) / /      
@@ -227,6 +238,17 @@ int main()
 	function("a%35.1s, %.2s:O\n", shard3, shard4);
 	function("b%23.12s, %30.3sD:\n", shard4, shard5);
 	function("a%31.2s, %*.45s %5.32s:>\n", shard5, 20, shard5, shard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __        
  (_) / /        
@@ -311,6 +333,17 @@ int main()
 	function("a%35p, %p:O\n", phard3, phard4);
 	function("b%23p, %30pD:\n", phard4, phard5);
 	function("a%31p, %*p:>\n", phard5, 20, phard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __      _ 
  (_) / /     | |
@@ -393,6 +426,17 @@ int main()
 	function("a%65d, %d:O\n", dhard3, dhard4);
 	function("b%98d, %-30dD:\n", dhard4, CHAR_MIN);
 	function("a%31d, %*d:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __  _ 
  (_) / / (_)
@@ -475,6 +519,17 @@ int main()
 	function("a%65i, %i:O\n", dhard3, dhard4);
 	function("b%98i, %-30iD:\n", dhard4, CHAR_MIN);
 	function("a%31i, %*i:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __        
  (_) / /        
@@ -557,6 +612,17 @@ int main()
 	function("a%65u, %u:O\n", dhard3, dhard4);
 	function("b%98u, %-30uD:\n", dhard4, CHAR_MIN);
 	function("a%31u, %*u:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __                   _       
  (_) / /                  (_)      
@@ -639,6 +705,17 @@ int main()
 	function("a%65x, %x:O\n", dhard3, dhard4);
 	function("b%98x, %-30xD:\n", dhard4, CHAR_MIN);
 	function("a%31x, %*x:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __ __   __
  (_) / / \ \ / /
@@ -721,6 +798,17 @@ int main()
 	function("a%65X, %X:O\n", dhard3, dhard4);
 	function("b%98X, %-30XD:\n", dhard4, CHAR_MIN);
 	function("a%31X, %*X:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __  _   __
  (_) / / (_) / /
@@ -803,6 +891,17 @@ int main()
 	function("a%65d, %17%%X:O\n", dhard3, dhard4);
 	function("b%98i, %1%%-30xD:\n", dhard4, CHAR_MIN);
 	function("a%31X%19%, %12i:>\n", INT_MIN, 20, dhard5);
+	// 60 - 65 //
+
+	// 66 - 70 //
+
+	// 71 - 75 //
+
+	// 76 - 80 //
+
+	// 81 - 85 //
+
+	// 86 - 90 //
 /*
   _   __  __  __ _______   __
  (_) / / |  \/  |_   _\ \ / /
@@ -812,7 +911,40 @@ int main()
  /_/ (_) |_|  |_|_____/_/ \_\
 */
 	// 1 - 5 //
-
+	function("89417891\n");
+	function("961491\n");
+	function("-1518\n");
+	function("+15\n");
+	function("0\n", xhard1);
+	// 5 - 10 //
+	function("%% %c\n", chard1);
+	function("%% %c %s\n", chard2, shard3);
+	function("%% %s\n", shard2);
+	function("%% %s\n", shard1);
+	function("%% %d Hi i am\n", dhard1);
+	// 10 - 15 //
+	function("%d %d%sYoussef\n", dhard2, dhard3);
+	function("%d %d%ca 0123456a\n", dhard3, dhard5, chard3);
+	function("%d %c %cHi !\n", dhard4, chard4, chard5);
+	function("aaaaa %d %s aaaaaaa\n", dhard5, shard4);
+	function("%15d %s\n", dhard1, shard5);
+	// 15 - 20 //
+	function("%16% %s %d\n", shard2, dhard5);
+	function("%32% %5s\n", shard3);
+	function("%56% %c\n", chard4);
+	function("%15% %15d %16s\n", dhard5, shard2);
+	function("%% %% %dd %c\n", dhard1, 39);
+	// 20 - 25 //
+	function("%% %% %d\n", xhard2, -1825);
+	function("%% %0% %d %161% %65s\n", dhard3, shard3);
+	function("%% %d%c%s%p\n", dhard4, chard5, shard2, phard2);
+	function("%% %p%u%x%X\n", phard5, dhard5, xhard1, xhard5);
+	function("%10%, %%\n", xhard1, xhard2);
+	// 25 - 30 //
+	function("%11% %14d %6p %51s %x, %25%245\n", dhard5, phard3, shard4, xhard5);
+	function("%1% %14d %6p %51s753 %x, %245%2%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%12% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %25%2%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%2% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %2%25%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
 	/////////////////
 	// hard PART //
 	/////////////////
@@ -822,6 +954,49 @@ int main()
 	* 					A FAIRE 					A FAIRE 					A FAIRE
 	*
 	*/
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+	// 36 - 40 //
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+	// 41 - 45 //
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+	// 46 - 50 //
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+	// 51 - 55 //
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+	// 56 - 60 //
+	function("%10%, %%\n", xhard1, xhard2);
+	function("%118782% %14d %6p %51s %x, %245%245\n", dhard5, phard3, shard4, xhard5);
+	function("%118782% %14d %6p %51s753 %x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard4);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dhard5, phard3, shard4, xhard5, shard2);
+	function("qqq%118782% qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n", dhard5, phard3, shard4, xhard5, shard2, shard3);
+/*
+  _   __  _____    ______              _______   _    _   _   __
+ (_) / / |  __ \  |  ____|     /\     |__   __| | |  | | (_) / /
+    / /  | |  | | | |__       /  \       | |    | |__| |    / / 
+   / /   | |  | | |  __|     / /\ \      | |    |  __  |   / /  
+  / / _  | |__| | | |____   / ____ \     | |    | |  | |  / / _ 
+ /_/ (_) |_____/  |______| /_/    \_\    |_|    |_|  |_| /_/ (_)
+*/
 }
 
 /*
