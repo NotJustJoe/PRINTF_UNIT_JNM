@@ -67,7 +67,7 @@ gcc -Wall -Werror -Wextra -w ./mains/hard_main.c -D function="printf" -o ./out/r
 ./out/real.out >> output_to_diff/real_results.txt
 make -C ../
 cp ../libftprintf.a ./srcs/
-gcc -Wall -Werror -Wextra -w ./mains/hard_main.c ./srcs/libftprintf.a -D function="printf" -o ./out/fake.out
+gcc -Wall -Werror -Wextra -w ./mains/hard_main.c ./srcs/libftprintf.a -D function="ft_printf" -o ./out/fake.out
 ./out/fake.out >> output_to_diff/fake_results.txt
 rm -rf results/results.log results/valgrind.log
 ${gcc_valgrind} --log-fd=9 9>> ./results/valgrind.log ./out/fake.out
