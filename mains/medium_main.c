@@ -6,7 +6,7 @@
 /*   By: trofidal <trofidal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/13 11:29:27 by trofidal          #+#    #+#             */
-/*   Updated: 2021/03/17 11:52:39 by trofidal         ###   ########.fr       */
+/*   Updated: 2021/03/17 11:53:24 by trofidal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -910,17 +910,6 @@ int main()
 	function("%80.333d %0----1.5d %6p %51s753 %x, %245%245%-10.200s\n", -847365164, dmedium5, pmedium3, smedium4, xmedium5, smedium4);
 	function("qqq%112% qqqq%%%%10%00.1000d753 %6psdfs %51s%%fsdf %6x, %245%245%s\n", dmedium5, pmedium3, smedium4, xmedium5, smedium2);
 	function("qqq%80.333d qqqq%14d753 %6psdfs %51s%%fsdf %6x, %245%245%s%16s\n",  -847365164, dmedium5, pmedium3, smedium4, xmedium5, smedium2, smedium3);
-	// 60 - 65 //
-
-	// 66 - 70 //
-
-	// 71 - 75 //
-
-	// 76 - 80 //
-
-	// 81 - 85 //
-
-	// 86 - 90 //
 /*
   _   __  _____    ______              _______   _    _   _   __
  (_) / / |  __ \  |  ____|     /\     |__   __| | |  | | (_) / /
@@ -928,7 +917,7 @@ int main()
    / /   | |  | | |  __|     / /\ \      | |    |  __  |   / /  
   / / _  | |__| | | |____   / ____ \     | |    | |  | |  / / _ 
  /_/ (_) |_____/  |______| /_/    \_\    |_|    |_|  |_| /_/ (_)           
-                                            
+   This is for the hard boys ! (Hard part only)                                         
 */
 }
 
