@@ -113,7 +113,7 @@ do
  		echo -ne "\033[0;32m \xE2\x9C\x94	\033[0m"
 		let "note += 1"
 	else
- 		echo -ne "$test_numb : \033[0;31m x	\033[0m"
+ 		echo -ne "$test_numb:\033[0;31m x  \033[0m"
 		echo "▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ TEST NUMBER $test_numb : ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄" >> diff.txt
 		sed -n ${test_numb}p output_to_diff/fake_results.txt >> diff.txt
 		echo >> diff.txt
